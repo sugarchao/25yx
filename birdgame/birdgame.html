@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0028)http://www.birdgame.cn/index -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="keywords" content="神鸟游戏、安卓游戏、Android、手游、手机游戏、godbird、birdgame、手机网游、安卓单机、手机应用、应用接入、安卓商城、中国移动移动商场（MM）、手机应用、推广和接入">
+<meta name="description" content="神鸟游戏平台是康元国玉科技发展限公司旗下打造的一款游戏娱乐互动平台，成立于2014年，现正处于飞速发展阶段，公司立志把神鸟平台打造成为最受青睐的游戏平台。">
+<link rel="shortcut icon" type="image/ico" href="http://www.birdgame.cn/static/images/favicon.ico">
+<link rel="stylesheet" href="./birdgame_files/reset.css">
+<link rel="stylesheet" href="./birdgame_files/global.css">
+<link rel="stylesheet" href="./birdgame_files/main.css">
+<link rel="stylesheet" href="./birdgame_files/jquery.slideBox.css">
+<title>神鸟手机游戏平台 安卓Android手机游戏免费下载平台</title>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a-min.js" /></script>
+<![endif]-->
+<script type="text/javascript" src="./birdgame_files/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./birdgame_files/jquery.slideBox.min.js"></script>
+</head>
+<body>
+<div class="pct100">
+
+<script type="text/javascript" src="./birdgame_files/common.js"></script>
+<div id="siteNav">
+  <div class="layout">
+    <ul class="siteNavMenu fr">
+      <li class="rb"><a href="javascript:SetHome(this,window.location);">设为首页</a>&nbsp;</li>
+      <li>
+        <div class="menuShow"> <img src="./birdgame_files/transparent.gif" alt="" class="followWx" width="24"><span class="arrDrop"></span> </div>
+        <div class="menuHide"> <img src="./birdgame_files/rcode.jpg" alt="微信二维码" class="code"> </div>
+      </li>
+      <li class="lb"><a href="javascript:AddFavorite(window.location,document.title);">加入收藏夹</a></li>
+    </ul>
+  </div>
+</div>
+<div class="header-wrap">
+  <div class="header fix">
+    <div class="logo"><a title="神鸟" href="javascript:void(0);"><img alt="神鸟" src="./birdgame_files/logo1.jpg" height="55"></a></div>
+    <div class="form fix">
+      <!--	
+	  <form id="sForm" method="get" action="http://www.birdgame.cn/search/1">
+        <div class="search-wrap"> <i></i>
+          <div class="search-txt">
+            <input id="key" class="txt" type="text" maxlength="30" name="keyword" value="">
+          </div>
+        </div>
+        <div class="search-btn">
+          <button type="submit" class="submit">搜索</button>
+        </div>
+      </form>
+	  -->
+    </div>
+  </div>
+</div>
+<div class="nav-wrap">
+  <ul class="nav fix">
+    <li class="curr"><a href="javascript:void(0);" title="神鸟首页">首页<span class="nav-bar"></span></a></li>
+	<!--	
+    <li><a href="http://www.birdgame.cn/network/2-1" title="网络游戏">网络游戏</a></li>
+    <li><a href="http://www.birdgame.cn/local/1-1" title="单机游戏">单机游戏</a></li>
+	-->
+  </ul>
+</div>
+<div class="content">
+  <div class="layout fix">
+    <!--大图轮播 begin-->
+    <div class="ban-wrap">
+      <div id="banner" class="ban-main slideBox" style="width: 860px; height: 360px;">
+        <ul class="items" style="width: 3440px; left: -1720px;">
+          <li class="" style="width: 860px; height: 360px;"><a href="javascript:void(0);" title="《天天撸啊撸》"></a><img src="./birdgame_files/t01def2421c4795fe26.jpg" width="860" height="360" alt=""></li>
+          <li class="" style="width: 860px; height: 360px;"><a href="javascript:void(0);" title="《魔力时代》"><img src="./birdgame_files/t015f3907b3252b4adb.jpg" width="860" height="360" alt=""></a></li>
+          <li class="" style="width: 860px; height: 360px;"><a href="javascript:void(0);" title="《漫画英雄》"><img src="./birdgame_files/t01759e7e264b850efa.jpg" width="860" height="360" alt=""></a></li>
+          <li class="active" style="width: 860px; height: 360px;"><a href="javascript:void(0);" title="《寒灵之剑》"><img src="./birdgame_files/t018888f19b64cf6703.jpg" width="860" height="360" alt=""></a></li>
+        </ul>
+      <div class="tips" style="opacity: 0.6;"><div class="title"><a href="javascript:void(0);">《漫画英雄》</a></div><div class="nums" style=""><a href="javascript:void(0);" class="" style="border-radius: 10px;">《天天撸啊撸》</a><a href="javascript:void(0);" class="" style="border-radius: 10px;">《魔力时代》</a><a href="javascript:void(0);" class="active" style="border-radius: 10px;">《漫画英雄》</a><a href="javascript:void(0);" class="" style="border-radius: 10px;">《寒灵之剑》</a></div></div></div>
+    </div>
+    <!--大图轮播 end-->
+    <script type="text/javascript">
+	jQuery(function($){
+		$('#banner').slideBox({
+			duration : 0.3,//滚动持续时间，单位：秒
+			easing : 'linear',//swing,linear//滚动特效
+			delay : 5,//滚动延迟时间，单位：秒
+			hideClickBar : false,//不自动隐藏点选按键
+			clickBarRadius : 10
+		});
+	});
+	</script>
+    <!--第一层 begin-->
+    <div class="mod-box layout-r">
+      <div class="mod-head">
+		<h2 class="cap-first" onclick="">应用推广合作</h2>
+      </div>
+      <div class="mod-cont mod-first"> <a href="http://wpa.qq.com/msgrd?v=3&uin=2330634023&site=qq&menu=yes" title="中国移动MAP应用接入" target="_blank" class="mod-first-icon"> <img src="./birdgame_files/cmcc.png" alt="中国移动MAP应用接入"> </a>
+        <div class="mod-first-des fix"> <a class="mod-first-tit" href="http://wpa.qq.com/msgrd?v=3&uin=2330634023&site=qq&menu=yes" title="中国移动应用商场（MM）专属品牌店应用推广和接入" target="_blank">合作申请<img border="0" src="http://wpa.qq.com/pa?p=2:2330634023:52" alt="在线咨询" title="在线咨询"/></a>
+          <p class="mod-first-txt cell">中国移动应用商场（MM）专属品牌店应用推广和接入</p>
+        </div>
+        <div class="mod-first-coll">
+          <!-- <div class="mod-coll fix"><a class="g_r_down r" href="#">下载</a></div> -->
+        </div>
+      </div>
+      <div class="dl-good">
+        <h3><i></i>神鸟<em>APP</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天翼空间客户端</h3>
+        <ul class="dl-good-list fix">
+          <li class="good-first"> <a title="点击下载神鸟APP" href="aiwan.apk" class="good-link" target="_blank"><img src="./birdgame_files/g_rcode.jpg" width="150" height="140" style="margin-top:-15px;margin-left:-8px;" alt="神鸟APP下载" title="扫描下载神鸟APP"></a></li>
+          <li class="good-last"> <a title="扫描下载天翼空间客户端APP" class="good-link"><img src="./birdgame_files/tykj_g_rcode.png" class="ml10" width="150" height="140" style="margin-top:-15px;margin-left:2px;" alt="天翼空间客户端二维码下载"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="layout">
+    <div class="mod-box layout-l">
+      <div class="hot_recom ng_h_r">
+        <div class="hot_recom_list fix">
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t1"></span>
+              <div>休闲益智</div>
+			  <!-- 
+              <a class="r mr20 f12" href="http://www.birdgame.cn/category/8-1" title="更多Android休闲益智游戏" target="_blank">更多&gt;&gt;</a>
+			   -->
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t010c49d00a0125f097.png" alt="二货答题机" title="二货答题机"></a></div>
+                  <p><a href="javascript:void(0);" title="二货答题机">二货答题机</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/820780.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t015d4a5cac7189b7d4.png" alt="猜你小时候" title="猜你小时候"></a></div>
+                  <p><a href="javascript:void(0);" title="猜你小时候">猜你小时候</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/859728.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t016793511065cc4ea1.png" alt="暴脾气" title="暴脾气"></a></div>
+                  <p><a href="javascript:void(0);" title="暴脾气">暴脾气</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/948014.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t2"></span>
+              <div>动作冒险</div>
+			  <!-- 
+              <a class="r mr20 f12" href="http://www.birdgame.cn/category/10-1" title="更多Android动作冒险游戏" target="_blank">更多&gt;&gt;</a>
+			   -->
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t014811e96b29380ef4.png" alt="TOA" title="TOA"></a></div>
+                  <p><a href="javascript:void(0);" title="TOA">TOA</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/900969.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01da4f30f6925a0325.png" alt="女神的斗士" title="女神的斗士"></a></div>
+                  <p><a href="javascript:void(0);" title="女神的斗士">女神的斗士</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/1573808.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01f224780be054b9fe.png" alt="最爱酷跑" title="最爱酷跑"></a></div>
+                  <p><a href="javascript:void(0);" title="最爱酷跑">最爱酷跑</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/1579843.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t3"></span>
+              <div>棋牌天地</div>
+			  <!-- 
+              <a class="r mr20 f12" href="http://www.birdgame.cn/category/11-1" title="更多Android棋牌天地游戏" target="_blank">更多&gt;&gt;</a>
+			   -->
+                     
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t010eb8d4fdc6deae03.png" alt="真人视频赢三张" title="真人视频赢三张"></a></div>
+                  <p><a href="javascript:void(0);" title="真人视频赢三张">真人视频赢三…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/711643.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t019ad5b68791b4dc03.png" alt="欢乐途游斗地主" title="欢乐途游斗地主"></a></div>
+                  <p><a href="javascript:void(0);" title="欢乐途游斗地主">欢乐途游斗地…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/935401.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01e234a0f26109a0bb.png" alt="疯狂斗地主" title="疯狂斗地主"></a></div>
+                  <p><a href="javascript:void(0);" title="疯狂斗地主">疯狂斗地主</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/936918.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t4"></span>
+              <div>飞行射击</div>
+			  <!-- 
+              <a class="r mr20 f12" href="http://www.birdgame.cn/category/13-1" title="更多Android飞行射击游戏" target="_blank">更多&gt;&gt;</a>
+			   -->
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01971f5eae13913b1f.png" alt="反恐精英CMSWAT" title="反恐精英CMSWAT"></a></div>
+                  <p><a href="javascript:void(0);" title="反恐精英CMSWAT">反恐精英CM…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/124193.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01d066ae6523f5f48c.png" alt="反恐精英CMSWAT(HD)" title="反恐精英CMSWAT(HD)"></a></div>
+                  <p><a href="javascript:void(0);" title="反恐精英CMSWAT(HD)">反恐精英CM…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/200100.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01b59eb5d59ce95f6c.png" alt="致命雷电之雷霆行动" title="致命雷电之雷霆行动"></a></div>
+                  <p><a href="javascript:void(0);" title="致命雷电之雷霆行动">致命雷电之雷…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/906553.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t5"></span>
+              <div>体育竞速</div>
+			  
+             
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01606f30b9bafcb599.png" alt="全民飞车" title="全民飞车"></a></div>
+                  <p><a href="javascript:void(0);" title="全民飞车">全民飞车</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/402540.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t018c5f13246fb58634.png" alt="天天世界杯(足球大逆袭)" title="天天世界杯(足球大逆袭)"></a></div>
+                  <p><a href="javascript:void(0);" title="天天世界杯(足球大逆袭)">天天世界杯(…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/1571423.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01044bf98016886070.png" alt="进击的足球" title="进击的足球"></a></div>
+                  <p><a href="javascript:void(0);" title="进击的足球">进击的足球</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/1690360.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t6"></span>
+              <div>经营策略</div>
+              
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01e5a6d380637c6d24.png" alt="天天足球(激情世界杯)" title="天天足球(激情世界杯)"></a></div>
+                  <p><a href="javascript:void(0);" title="天天足球(激情世界杯)">天天足球(激…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/249222.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t0138c23b79e4e43a2a.png" alt="真正男子汉jungleheat" title="真正男子汉jungleheat"></a></div>
+                  <p><a href="javascript:void(0);" title="真正男子汉jungleheat">真正男子汉j…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/695902.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01a07a2286dd20c87e.png" alt="怪兽岛2（女王你好）" title="怪兽岛2（女王你好）"></a></div>
+                  <p><a href="javascript:void(0);" title="怪兽岛2（女王你好）">怪兽岛2（女…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/705472.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t7"></span>
+              <div>角色扮演</div>
+              
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t016831436c4a64d38f.png" alt="叮叮堂" title="叮叮堂"></a></div>
+                  <p><a href="javascript:void(0);" title="叮叮堂">叮叮堂</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/144762.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t014c8088a0a54d6588.png" alt="神雕侠侣（新资料片）" title="神雕侠侣（新资料片）"></a></div>
+                  <p><a href="javascript:void(0);" title="神雕侠侣（新资料片）">神雕侠侣（新…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/705490.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01dbd05aa1b080fcd5.png" alt="乱斗堂" title="乱斗堂"></a></div>
+                  <p><a href="javascript:void(0);" title="乱斗堂">乱斗堂</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/711876.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+          <div class="hot_recom_div">
+            <div class="hot_recom_title fix"> <span class="t8"></span>
+              <div>网络游戏</div>
+             
+            </div>
+            <div class="hot_recom_box">
+              <ul class="good_recom_ul mt0">
+              
+                <li class="ml8">
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t012ba1ec11529d1c97.png" alt="三国时代" title="三国时代"></a></div>
+                  <p><a href="javascript:void(0);" title="三国时代">三国时代</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/1270.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t01f2f3c4fac5466b46.png" alt="小小帝国-部落英雄（宠物版）" title="小小帝国-部落英雄（宠物版）"></a></div>
+                  <p><a href="javascript:void(0);" title="小小帝国-部落英雄（宠物版）">小小帝国-部…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/21573.apk">下载</a>
+                  </li>
+              
+                <li>
+                  <div class="g_r_img"><a href="javascript:void(0);"><img src="./birdgame_files/t017fb22916bf09acad.png" alt="英雄战魂-新职业“剑魔”开启" title="英雄战魂-新职业“剑魔”开启"></a></div>
+                  <p><a href="javascript:void(0);" title="英雄战魂-新职业“剑魔”开启">英雄战魂-新…</a></p>
+                  <a class="g_r_down" href="http://download.birdgame.cn/apk/118572.apk">下载</a>
+                  </li>
+              
+              </ul>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+	<div class="mod-box layout-r">
+		<div class="mod-head">
+        <h3 class="cap-recom fix"><a href="javascript:void(0);" title="Android网络游戏排行" target="_blank">网络游戏排行</a></h3>
+        <a class="r f16" href="javascript:void(0);" title="更多Android网络游戏排行" target="_blank"></a> </div>
+      <ul class="mod-cont mod-coming fix">
+      
+        <li class="curr">
+          <div class="coming"> <a href="javascript:void(0);" title="忍者百分百(火影大结局)" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01297a951cc6b29395.png" alt="忍者百分百(火影大结局)"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="忍者百分百(火影大结局)" target="_blank">忍者百分百(火影大结局)</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1929750.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="忍者百分百(火影大结局)" class="coming-name" target="_blank"><i class="num">1</i>忍者百分百(…</a> <span class="coming-class">9998</span><span>110.47 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="乐战西游OL" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01f875d21cda730c12.png" alt="乐战西游OL"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="乐战西游OL" target="_blank">乐战西游OL</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/796336.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="乐战西游OL" class="coming-name" target="_blank"><i class="num">2</i>乐战西游OL</a> <span class="coming-class">9874</span><span>74.83 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="战神大陆" class="coming-icon" target="_blank"> <img src="./birdgame_files/t018bf4b765a90ad13c.png" alt="战神大陆"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="战神大陆" target="_blank">战神大陆</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/922891.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="战神大陆" class="coming-name" target="_blank"><i class="num">3</i>战神大陆</a> <span class="coming-class">9850</span><span>102.62 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="永生门 (仙侠精品)" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01b3693690d0498485.png" alt="永生门 (仙侠精品)"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="永生门 (仙侠精品)" target="_blank">永生门 (仙侠精品)</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/192850.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="永生门 (仙侠精品)" class="coming-name" target="_blank"><i class="num">4</i>永生门 (仙…</a> <span class="coming-class">9809</span><span>130.82 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="玩转西游" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01c22b572bbf842262.png" alt="玩转西游"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="玩转西游" target="_blank">玩转西游</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/939823.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="玩转西游" class="coming-name" target="_blank"><i class="num">5</i>玩转西游</a> <span class="coming-class">9737</span><span>45.12 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="不败战神（热血开战）" class="coming-icon" target="_blank"> <img src="./birdgame_files/t0169a66b68a5abfa5a.png" alt="不败战神（热血开战）"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="不败战神（热血开战）" target="_blank">不败战神（热血开战）</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1933190.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="不败战神（热血开战）" class="coming-name" target="_blank"><i class="num">6</i>不败战神（热…</a> <span class="coming-class">9698</span><span>211.08 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="幻仙(神魔诛仙)" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01dc03c3f77f3aa1fb.png" alt="幻仙(神魔诛仙)"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="幻仙(神魔诛仙)" target="_blank">幻仙(神魔诛仙)</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/707941.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="幻仙(神魔诛仙)" class="coming-name" target="_blank"><i class="num">7</i>幻仙(神魔诛…</a> <span class="coming-class">9676</span><span>99.2 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="秦美人(送美人 争霸天下)" class="coming-icon" target="_blank"> <img src="./birdgame_files/t019d0af59e22f415a9.png" alt="秦美人(送美人 争霸天下)"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="秦美人(送美人 争霸天下)" target="_blank">秦美人(送美人 争霸天下…</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/347602.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="秦美人(送美人 争霸天下)" class="coming-name" target="_blank"><i class="num">8</i>秦美人(送美…</a> <span class="coming-class">9667</span><span>65.88 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="神龙传说" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01b2704d51ff85e86c.png" alt="神龙传说"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="神龙传说" target="_blank">神龙传说</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1609673.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="神龙传说" class="coming-name" target="_blank"><i class="num">9</i>神龙传说</a> <span class="coming-class">9651</span><span>101.18 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="龙战" class="coming-icon" target="_blank"> <img src="./birdgame_files/t013905605b4092e590.png" alt="龙战"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="龙战" target="_blank">龙战</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/909967.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="龙战" class="coming-name" target="_blank"><i class="num">10</i>龙战</a> <span class="coming-class">9579</span><span>227.37 MB</span> </div>
+        </li>
+      
+      </ul>
+	</div>
+    <div class="layout mod-box layout-r">
+      <div class="mod-head">
+        <h3 class="cap-recom"><a href="javascript:void(0);" title="Android单机游戏排行" target="_blank">单机游戏排行</a></h3>
+        <a class="r f16" href="javascript:void(0);" title="更多Android单机游戏排行" target="_blank"></a> </div>
+      <ul class="mod-cont mod-coming fix">
+        
+        <li class="curr">
+          <div class="coming"> <a href="javascript:void(0);" title="天天爱萌宠" class="coming-icon" target="_blank"> <img src="./birdgame_files/1430279579936.ico" alt="天天爱萌宠"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="天天爱萌宠" target="_blank">天天爱萌宠</a>
+              <p class="company">游戏厂商： 成都康元国玉科技有限公司</p>
+              <div class="time"><a class="g_r_down_n r" href="http://omp.birdgame.cn/static/file/apk/1430279579936.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="天天爱萌宠" class="coming-name" target="_blank"><i class="num">1</i>天天爱萌宠</a> <span class="coming-class">128495</span><span>5.54MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="图说搞笑" class="coming-icon" target="_blank"> <img src="./birdgame_files/1437359262553.ico" alt="图说搞笑"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="图说搞笑" target="_blank">图说搞笑</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://omp.birdgame.cn/static/file/apk/1437359262553.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="图说搞笑" class="coming-name" target="_blank"><i class="num">2</i>图说搞笑</a> <span class="coming-class">74272</span><span>1.48MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="图说资源" class="coming-icon" target="_blank"> <img src="./birdgame_files/1437359192729.ico" alt="图说资源"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="图说资源" target="_blank">图说资源</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://omp.birdgame.cn/static/file/apk/1437359192729.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="图说资源" class="coming-name" target="_blank"><i class="num">3</i>图说资源</a> <span class="coming-class">67359</span><span>1.44MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="卧虎藏龙" class="coming-icon" target="_blank"> <img src="./birdgame_files/t0167eca3bb68d14b85.png" alt="卧虎藏龙"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="卧虎藏龙" target="_blank">卧虎藏龙</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/2020077.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="卧虎藏龙" class="coming-name" target="_blank"><i class="num">4</i>卧虎藏龙</a> <span class="coming-class">9988</span><span>17.23 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="三国战神送郭嘉HD" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01aa2b6c66d38fc8c2.png" alt="三国战神送郭嘉HD"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="三国战神送郭嘉HD" target="_blank">三国战神送郭嘉HD</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1652649.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="三国战神送郭嘉HD" class="coming-name" target="_blank"><i class="num">5</i>三国战神送郭…</a> <span class="coming-class">9779</span><span>124.36 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="进击的足球" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01044bf98016886070.png" alt="进击的足球"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="进击的足球" target="_blank">进击的足球</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1690360.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="进击的足球" class="coming-name" target="_blank"><i class="num">6</i>进击的足球</a> <span class="coming-class">9567</span><span>59.5 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="口袋奇迹" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01844cd186126ef597.png" alt="口袋奇迹"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="口袋奇迹" target="_blank">口袋奇迹</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1608162.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="口袋奇迹" class="coming-name" target="_blank"><i class="num">7</i>口袋奇迹</a> <span class="coming-class">9507</span><span>84.01 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="数钱达人" class="coming-icon" target="_blank"> <img src="./birdgame_files/1445915438985.ico" alt="数钱达人"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="数钱达人" target="_blank">数钱达人</a>
+              <p class="company">游戏厂商： 成都康元国玉科技有限公司</p>
+              <div class="time"><a class="g_r_down_n r" href="http://omp.birdgame.cn/static/file/apk/1445915438985.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="数钱达人" class="coming-name" target="_blank"><i class="num">8</i>数钱达人</a> <span class="coming-class">8933</span><span>16.66MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="3D星海传奇" class="coming-icon" target="_blank"> <img src="./birdgame_files/t0174912d0c1d765d51.png" alt="3D星海传奇"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="3D星海传奇" target="_blank">3D星海传奇</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/1596953.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="3D星海传奇" class="coming-name" target="_blank"><i class="num">9</i>3D星海传奇</a> <span class="coming-class">8827</span><span>91.43 MB</span> </div>
+        </li>
+      
+        <li>
+          <div class="coming"> <a href="javascript:void(0);" title="塔防36计" class="coming-icon" target="_blank"> <img src="./birdgame_files/t01fba48e365de600d6.png" alt="塔防36计"> </a>
+            <div class="coming-des"> <a class="coming-tit" href="javascript:void(0);" title="塔防36计" target="_blank">塔防36计</a>
+              <p class="company">游戏厂商： </p>
+              <div class="time"><a class="g_r_down_n r" href="http://download.birdgame.cn/apk/906778.apk">下载</a></div>
+            </div>
+          </div>
+          <div class="coming-normal"> <a href="javascript:void(0);" title="塔防36计" class="coming-name" target="_blank"><i class="num">10</i>塔防36计</a> <span class="coming-class">8806</span><span>53.86 MB</span> </div>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+  <!-- layout end -->
+</div>
+
+<!-- footer start -->
+<div class="ft">
+  <div class="copy-right">
+    <p> <a href="javascript:void(0);" target="_blank" title="关于神鸟">关于爱玩游戏</a> | <a href="http://wpa.qq.com/msgrd?v=3&uin=2330634023&site=qq&menu=yes" target="_blank" title="联系我们"> 联系我们 </a> | <a href="javascript:void(0);" target="_blank" title="网站地图"> 网站地图 </a> | <a>皖ICP备11014174号-1</a></p>
+    <p>Copyright © 2016  All Rights Reserved. 四川天翼佳音网络信息服务有限公司  版权所有</p>
+  </div>
+</div>
+<!-- footer end -->
+<a style="display: block;" id="toTop" title="返回顶部" target="_self" href="javascript:void(0)"><i></i></a>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+	DD_belatedPNG.fix('.star');
+</script>
+<![endif]-->
+
+</div>
+<script type="application/javascript">
+$(document).ready(function () {
+  $(".mod-cont li").hover(function(){$(this).addClass("curr").siblings().removeClass("curr")});
+});
+
+	function openQq(){
+		
+		window.location.href = "tencent://message/?uin=15386577&Site=&menu=yes";
+	}
+</script>
+
+
+</body></html>
+
+
